@@ -1,0 +1,132 @@
+body{
+
+  background-color:#F2F3F4;
+}
+
+
+.cell{
+  background-color: #F2F3F4
+}
+    
+ 
+ 
+  h2{
+    border:2px  solid black;
+    width:26%;
+    
+    text-align:center;
+    padding: 20px;
+    margin-left:670px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:60px;
+}
+
+#center {
+
+  margin-left:680px;
+}
+    
+    
+/*For mobile screen*/
+
+    
+    
+    .container {
+        margin: 0 auto;
+        max-width: 1400px;
+        padding: 0 1rem;
+
+      
+        background-color:white; 
+        
+        text-align: center;
+      }
+
+      .responsive-image {
+        max-width: 100%;
+      }
+
+      .cell img {
+        display: block;
+      
+        padding: 10px;
+      }
+
+
+/*For tablet*/
+
+@media screen and (min-width: 600px) {
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .cell {
+      width: 50%;
+    }
+  }
+
+  /*For Desktop*/
+
+  @media screen and (min-width: 1000px) {
+    .cell {
+      width: calc(100% / 3);
+    }
+  }
+
+  /*margin*/
+  .cell {
+    margin: 1rem;
+  }
+
+  @media screen and (min-width: 600px) {
+    .cell {
+      width: calc(50% - 2rem);
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .cell {
+      width: calc(33.3333% - 2rem);
+    }
+  }
+
+  
+
+  .cell img {
+    opacity: 0.5;
+    transition: opacity 1s, transform 0.7s        ease-in;
+  }
+
+  img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    box-shadow: 1px 3px 8px 4px rgb(195, 195, 195);
+  }
+
+
+
+
+
+
+.footer{
+  background-color: #F2F3F4;
+  padding: 50px;
+  
+  
+}
+
+#bottom{
+  float:right;
+}
+
+#copyright{
+  text-align:center;
+}
+
+
+a:hover{
+
+  color:#ff6600;
+  background-color: white;
+}
