@@ -1,0 +1,295 @@
+
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns : repeat(12,1fr)
+   
+
+        background-color:#F2F3F4;
+      
+      
+      
+    
+   
+}
+
+.header{
+    grid-column:span 12;
+}
+
+.menu{
+    grid-column:span 4;
+}
+
+.content{
+    grid-column:span 12;
+    background-color: white;
+    margin: 60px 80px;
+}
+
+
+@media screen and (max-width:680px){
+
+    .header{
+        grid-column:span 12;
+    }
+
+    .menu{
+        grid-row :1;
+        grid-column:span 6;
+        
+    }
+    .content{
+        grid-column: span 12;
+        
+            
+    }
+
+    .pic-container{
+        display:none;
+    }
+}
+
+
+
+
+
+
+  
+  
+
+
+body{
+
+    background-color:#F2F3F4 !important; 
+  
+  
+  
+  }
+
+
+
+#navbar{
+    background-color: #ff6600;
+    padding:15px;
+    border-top: 4px solid white;
+
+}
+
+
+
+.nav-list {
+    float:right;
+    margin:40px;
+   
+}
+
+
+.nav-list li {
+    display: inline;
+    margin:20px;
+    
+   
+}
+
+.nav-list li a{
+   text-transform: uppercase;
+   text-decoration: none;
+   font-size:15px;
+   color: black;
+  
+   
+}
+
+
+.Info-list li{
+    display: inline;
+    margin:20px;
+   
+}
+#logo{
+    width: 5%;
+}
+
+.container{
+    
+    position: relative;
+    height:90%;
+    width:90%;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: 40px auto; 
+
+}
+
+   #pic{
+    width: 400px;
+    height:500px;
+    margin:0px 0px 40px 0px;
+}
+
+.move{
+    margin-left: 10px;
+}
+
+
+
+
+button {
+  
+ 
+      border: none;
+     
+      font-size: 15px;
+     
+      float:left;
+
+      background-color: #ff6600;
+
+      padding:5px;
+    
+     
+  }
+
+  p{
+      font-size:14px;
+  }
+
+
+
+
+
+ul{
+   list-style-type: none;
+   text-align: justify;
+}
+
+
+.holder{
+   
+    background-color: white;
+    height:100%;
+    
+    padding: 40px 20px 20px 40px;
+  
+    
+}
+
+.pic-container{
+   
+    background-color: white;
+    padding:40px;
+    float:left;
+    height:30%;
+}
+
+.info-container{
+  margin:50px ;
+  height:30%;
+  
+}
+
+
+
+.w3-progress-container{
+    background: lightgrey;
+    width:100%;
+
+}
+
+.bars{
+    
+    background:#F2F3F4 ;
+    position: relative;
+    height:30%;
+    width:100%;
+
+}
+
+.social_icon{
+
+    font-size:50px;
+
+  
+   
+
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 10%;
+    padding: 0px;
+    height: 230px; 
+}
+.column2{
+    float: left;
+    width: 20%;
+    padding: 0px 40px;
+    height: 230px; 
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+a:hover{
+ 
+    color:white;
+    background-color:#ff6600;
+
+}
+
+
+h2{
+    border:2px  solid black;
+    width:26%;
+    text-align:center;
+    padding: 20px;
+    overflow: auto;
+    
+  
+}
+
+#space{
+    padding-top:40px;
+}
+
+.center{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+
+
+
+.footer{
+    background-color: white;
+    padding: 50px;
+    border-bottom: 5px solid #ff6600;
+    width:100%;
+
+}
+#bottom{
+    float:right;
+    margin:5px;
+}
+
+#copyright{
+    text-align:center;
+}
+
+
+img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    box-shadow: 1px 3px 8px 4px rgb(195, 195, 195);
+  }
+
